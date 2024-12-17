@@ -10,7 +10,22 @@
     },
     "Actor": {
       "BaseActor": {
-        "Appearance": "Appearance"
+        "Appearance": "Appearance",
+        "Note": "Note",
+        "Sex": "Sex",
+        "LawVersusChaosAlignment": "Law versus chaos Alignment",
+        "GoodVersusEvilAlignment": "Good versus evil Alignment",
+        "Status": {
+            "Strength": "Strength",
+            "Constitution": "Constitution",
+            "Dexterity": "Dexterity",
+            "Mana": "Mana",
+            "Luck": "Luck",
+            "NoblePhantasm": "Noble Phantasm",
+            "Value": "Base Value",
+            "Plus": "Plus Modifier",
+            "Ex": "EX Modifier"
+        }
       }
     },
     "SheetLabels": {
