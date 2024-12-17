@@ -8,6 +8,11 @@
       "Wis": { "long": "Wisdom", "abbr": "wis" },
       "Cha": { "long": "Charisma", "abbr": "cha" }
     },
+    "Actor": {
+      "BaseActor": {
+        "Appearance": "Appearance"
+      }
+    },
     "SheetLabels": {
       "Actor": "MyFVTTSystem Actor Sheet",
       "Item": "MyFVTTSystem Item Sheet"

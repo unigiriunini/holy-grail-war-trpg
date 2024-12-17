@@ -1,0 +1,9 @@
+{
+  "MY_FVTT_SYSTEM": {
+    "Actor": {
+      "BaseActor": {
+        "Appearance": "容姿"
+      }
+    }
+  }
+}
