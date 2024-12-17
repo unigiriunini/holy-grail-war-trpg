@@ -17,6 +17,8 @@ export default class MyFVTTSystemActorBase extends MyFVTTSystemDataModel {
     });
     schema.biography = new fields.StringField({ required: true, blank: true }); // equivalent to passing ({initial: ""}) for StringFields
 
+    schema.appearance = new fields.StringField({ required: true, blank: true });
+
     return schema;
   }
 
