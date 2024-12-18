@@ -26,6 +26,11 @@
             "Plus": "Plus Modifier",
             "Ex": "EX Modifier"
         }
+      },
+      "Master": {
+        "Name": "Name",
+        "Fame": "Fame",
+        "Wish": "Wish"
       }
     },
     "SheetLabels": {
