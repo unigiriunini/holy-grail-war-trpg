@@ -49,6 +49,13 @@
       "Temporary": "Temporary Effects",
       "Passive": "Passive Effects",
       "Inactive": "Inactive Effects"
+    },
+    "Template": {
+      "ActorMasterSheet": {
+        "DataTab": {
+          "BasicData": "Basic Data"
+        }
+      }
     }
   },
 

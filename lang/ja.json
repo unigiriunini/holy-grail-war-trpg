@@ -24,6 +24,13 @@
         "Fame": "家名",
         "Wish": "願い事"
       }
+    },
+    "Template": {
+      "ActorMasterSheet": {
+        "DataTab": {
+          "BasicData": "基本データ"
+        }
+      }
     }
   },
 
