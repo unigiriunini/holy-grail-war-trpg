@@ -20,5 +20,13 @@
         }
       }
     }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "character": "キャラクター",
+      "npc": "NPC",
+      "master": "マスター"
+    }
   }
 }

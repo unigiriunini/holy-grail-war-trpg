@@ -50,7 +50,8 @@
   "TYPES": {
     "Actor": {
       "character": "Character",
-      "npc": "NPC"
+      "npc": "NPC",
+      "mater": "Master"
     },
     "Item": {
       "item": "Item",

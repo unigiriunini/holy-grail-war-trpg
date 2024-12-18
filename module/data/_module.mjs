@@ -2,6 +2,7 @@
 export {default as MyFVTTSystemActorBase} from "./base-actor.mjs";
 export {default as MyFVTTSystemCharacter} from "./actor-character.mjs";
 export {default as MyFVTTSystemNPC} from "./actor-npc.mjs";
+export {default as MyFVTTSystemMaster} from "./actor-master.mjs";
 
 // Export Items
 export {default as MyFVTTSystemItemBase} from "./base-item.mjs";

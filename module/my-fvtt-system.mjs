@@ -43,7 +43,8 @@ Hooks.once('init', function () {
   // with the Character/NPC as part of super.defineSchema()
   CONFIG.Actor.dataModels = {
     character: models.MyFVTTSystemCharacter,
-    npc: models.MyFVTTSystemNPC
+    npc: models.MyFVTTSystemNPC,
+    master: models.MyFVTTSystemMaster
   }
   CONFIG.Item.documentClass = MyFVTTSystemItem;
   CONFIG.Item.dataModels = {
