@@ -21,3 +21,12 @@ MY_FVTT_SYSTEM.abilityAbbreviations = {
   wis: 'MY_FVTT_SYSTEM.Ability.Wis.abbr',
   cha: 'MY_FVTT_SYSTEM.Ability.Cha.abbr',
 };
+
+MY_FVTT_SYSTEM.statuses = {
+  strength: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Strength',
+  constitution: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Constitution',
+  dexterity: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Dexterity',
+  mana: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Mana',
+  luck: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Luck',
+  noble_phantasm: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.NoblePhantasm',
+};

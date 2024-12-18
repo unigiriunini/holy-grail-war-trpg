@@ -15,7 +15,7 @@
         "Sex": "Sex",
         "LawVersusChaosAlignment": "Law versus chaos Alignment",
         "GoodVersusEvilAlignment": "Good versus evil Alignment",
-        "Status": {
+        "Statuses": {
             "Strength": "Strength",
             "Constitution": "Constitution",
             "Dexterity": "Dexterity",
