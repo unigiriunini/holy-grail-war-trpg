@@ -27,7 +27,7 @@ export class HolyGrailWarTRPGActor extends Actor {
    */
   prepareDerivedData() {
     const actorData = this;
-    const flags = actorData.flags.myfvttsystem || {};
+    const flags = actorData.flags.holygrailwartrpg || {};
   }
 
   /**

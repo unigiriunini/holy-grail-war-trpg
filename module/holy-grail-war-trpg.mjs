@@ -17,7 +17,7 @@ import * as models from './data/_module.mjs';
 Hooks.once('init', function () {
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
-  game.myfvttsystem = {
+  game.holygrailwartrpg = {
     HolyGrailWarTRPGActor,
     HolyGrailWarTRPGItem,
     rollItemMacro,
@@ -115,7 +115,7 @@ async function createItemMacro(data, slot) {
   const item = await Item.fromDropData(data);
 
   // Create the macro command using the uuid.
-  const command = `game.myfvttsystem.rollItemMacro("${data.uuid}");`;
+  const command = `game.holygrailwartrpg.rollItemMacro("${data.uuid}");`;
   let macro = game.macros.find(
     (m) => m.name === item.name && m.command === command
   );
