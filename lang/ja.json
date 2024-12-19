@@ -3,21 +3,7 @@
     "Actor": {
       "BaseActor": {
         "Appearance": "容姿",
-        "Note": "自由入力欄",
-        "Sex": "性別",
-        "LawVersusChaosAlignment": "秩序/混沌アライメント",
-        "GoodVersusEvilAlignment": "善/悪アライメント",
-        "Statuses": {
-            "Strength": "筋力",
-            "Constitution": "耐久",
-            "Dexterity": "敏捷",
-            "Mana": "魔力",
-            "Luck": "幸運",
-            "NoblePhantasm": "宝具",
-            "Value": "基本値",
-            "Plus": "プラス修正値",
-            "Ex": "EX修正値"
-        }
+        "Note": "自由入力欄"
       },
       "Master": {
         "Name": "名前",
