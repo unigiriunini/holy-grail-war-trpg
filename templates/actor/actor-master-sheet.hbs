@@ -3,7 +3,7 @@
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     {{!-- Default tab is specified in actor-sheet.mjs --}}
-    <a class="item" data-tab="basic-data">{{localize 'MY_FVTT_SYSTEM.Template.ActorMasterSheet.DataTab.BasicData'}}</a>
+    <a class="item" data-tab="basic-data">{{localize 'HOLY_GRAIL_WAR_TRPG.Template.ActorMasterSheet.DataTab.BasicData'}}</a>
   </nav>
 
   {{!-- Sheet Body --}}
@@ -12,28 +12,28 @@
     {{!-- Basic Data Tab --}}
     <div class="tab basic-data" data-group="primary" data-tab="basic-data">
 
-      <label for="system.name" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.Master.Name'}}</label>
+      <label for="system.name" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.Master.Name'}}</label>
       <input type="text" name="system.name" value="{{system.name}}" />
 
-      <label for="system.fame" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.Master.Fame'}}</label>
+      <label for="system.fame" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.Master.Fame'}}</label>
       <input type="text" name="system.fame" value="{{system.fame}}" />
 
-      <label for="system.wish" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.Master.Wish'}}</label>
+      <label for="system.wish" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.Master.Wish'}}</label>
       <input type="text" name="system.wish" value="{{system.wish}}" />
 
-      <label for="system.appearance" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.Appearance'}}</label>
+      <label for="system.appearance" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Appearance'}}</label>
       <input type="text" name="system.appearance" value="{{system.appearance}}" />
 
-      <label for="system.sex" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.Sex'}}</label>
+      <label for="system.sex" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Sex'}}</label>
       <input type="text" name="system.sex" value="{{system.sex}}" />
 
-      <label for="system.law_versus_chaos_alignment" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.LawVersusChaosAlignment'}}</label>
+      <label for="system.law_versus_chaos_alignment" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.LawVersusChaosAlignment'}}</label>
       <input type="text" name="system.law_versus_chaos_alignment" value="{{system.law_versus_chaos_alignment}}" />
 
-      <label for="system.good_versus_evil_alignment" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.GoodVersusEvilAlignment'}}</label>
+      <label for="system.good_versus_evil_alignment" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.GoodVersusEvilAlignment'}}</label>
       <input type="text" name="system.good_versus_evil_alignment" value="{{system.good_versus_evil_alignment}}" />
 
-      <label for="system.note" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.Note'}}</label>
+      <label for="system.note" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Note'}}</label>
       <input type="text" name="system.note" value="{{system.note}}" />
 
 
@@ -41,13 +41,13 @@
       <label for="system.statuses.{{key}}.value" class="resource-label">{{localize (lookup @root.config.statuses key)}}</label>
       <div class="resources grid grid-6col">
 
-        <label for="system.statuses.{{key}}.value" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Value'}}</label>
+        <label for="system.statuses.{{key}}.value" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Value'}}</label>
         <input type="text" name="system.statuses.{{key}}.value" value="{{status.value}}" />
 
-        <label for="system.statuses.{{key}}.plus" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Plus'}}</label>
+        <label for="system.statuses.{{key}}.plus" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Plus'}}</label>
         <input type="text" name="system.statuses.{{key}}.plus" value="{{status.plus}}" />
 
-        <label for="system.statuses.{{key}}.ex" class="resource-label">{{localize 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Ex'}}</label>
+        <label for="system.statuses.{{key}}.ex" class="resource-label">{{localize 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Ex'}}</label>
         <input type="text" name="system.statuses.{{key}}.ex" value="{{status.ex}}" />
       </div>
       {{/each}}

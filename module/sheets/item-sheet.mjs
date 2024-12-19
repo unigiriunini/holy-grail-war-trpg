@@ -65,8 +65,8 @@ export class HolyGrailWarTRPGItemSheet extends ItemSheet {
     context.system = itemData.system;
     context.flags = itemData.flags;
 
-    // Adding a pointer to CONFIG.MY_FVTT_SYSTEM
-    context.config = CONFIG.MY_FVTT_SYSTEM;
+    // Adding a pointer to CONFIG.HOLY_GRAIL_WAR_TRPG
+    context.config = CONFIG.HOLY_GRAIL_WAR_TRPG;
 
     // Prepare active effects for easier access
     context.effects = prepareActiveEffectCategories(this.item.effects);

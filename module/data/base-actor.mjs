@@ -23,7 +23,7 @@ export default class HolyGrailWarTRPGActorBase extends HolyGrailWarTRPGDataModel
     schema.law_versus_chaos_alignment = new fields.StringField({ required: true, blank: true });
     schema.good_versus_evil_alignment = new fields.StringField({ required: true, blank: true });
 
-    schema.statuses = new fields.SchemaField(Object.keys(CONFIG.MY_FVTT_SYSTEM.statuses).reduce((obj, status) => {
+    schema.statuses = new fields.SchemaField(Object.keys(CONFIG.HOLY_GRAIL_WAR_TRPG.statuses).reduce((obj, status) => {
       obj[status] = new fields.SchemaField({
         value: new fields.StringField({ required: true, blank: true }),
         plus: new fields.StringField({ required: true, blank: true }),

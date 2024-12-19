@@ -6,7 +6,7 @@ import { HolyGrailWarTRPGActorSheet } from './sheets/actor-sheet.mjs';
 import { HolyGrailWarTRPGItemSheet } from './sheets/item-sheet.mjs';
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
-import { MY_FVTT_SYSTEM } from './helpers/config.mjs';
+import { HOLY_GRAIL_WAR_TRPG } from './helpers/config.mjs';
 // Import DataModel classes
 import * as models from './data/_module.mjs';
 
@@ -24,7 +24,7 @@ Hooks.once('init', function () {
   };
 
   // Add custom constants for configuration.
-  CONFIG.MY_FVTT_SYSTEM = MY_FVTT_SYSTEM;
+  CONFIG.HOLY_GRAIL_WAR_TRPG = HOLY_GRAIL_WAR_TRPG;
 
   /**
    * Set an initiative formula for the system
@@ -62,12 +62,12 @@ Hooks.once('init', function () {
   Actors.unregisterSheet('core', ActorSheet);
   Actors.registerSheet('holy-grail-war-trpg', HolyGrailWarTRPGActorSheet, {
     makeDefault: true,
-    label: 'MY_FVTT_SYSTEM.SheetLabels.Actor',
+    label: 'HOLY_GRAIL_WAR_TRPG.SheetLabels.Actor',
   });
   Items.unregisterSheet('core', ItemSheet);
   Items.registerSheet('holy-grail-war-trpg', HolyGrailWarTRPGItemSheet, {
     makeDefault: true,
-    label: 'MY_FVTT_SYSTEM.SheetLabels.Item',
+    label: 'HOLY_GRAIL_WAR_TRPG.SheetLabels.Item',
   });
 
   // Preload Handlebars templates.

@@ -1,32 +1,32 @@
-export const MY_FVTT_SYSTEM = {};
+export const HOLY_GRAIL_WAR_TRPG = {};
 
 /**
  * The set of Ability Scores used within the system.
  * @type {Object}
  */
-MY_FVTT_SYSTEM.abilities = {
-  str: 'MY_FVTT_SYSTEM.Ability.Str.long',
-  dex: 'MY_FVTT_SYSTEM.Ability.Dex.long',
-  con: 'MY_FVTT_SYSTEM.Ability.Con.long',
-  int: 'MY_FVTT_SYSTEM.Ability.Int.long',
-  wis: 'MY_FVTT_SYSTEM.Ability.Wis.long',
-  cha: 'MY_FVTT_SYSTEM.Ability.Cha.long',
+HOLY_GRAIL_WAR_TRPG.abilities = {
+  str: 'HOLY_GRAIL_WAR_TRPG.Ability.Str.long',
+  dex: 'HOLY_GRAIL_WAR_TRPG.Ability.Dex.long',
+  con: 'HOLY_GRAIL_WAR_TRPG.Ability.Con.long',
+  int: 'HOLY_GRAIL_WAR_TRPG.Ability.Int.long',
+  wis: 'HOLY_GRAIL_WAR_TRPG.Ability.Wis.long',
+  cha: 'HOLY_GRAIL_WAR_TRPG.Ability.Cha.long',
 };
 
-MY_FVTT_SYSTEM.abilityAbbreviations = {
-  str: 'MY_FVTT_SYSTEM.Ability.Str.abbr',
-  dex: 'MY_FVTT_SYSTEM.Ability.Dex.abbr',
-  con: 'MY_FVTT_SYSTEM.Ability.Con.abbr',
-  int: 'MY_FVTT_SYSTEM.Ability.Int.abbr',
-  wis: 'MY_FVTT_SYSTEM.Ability.Wis.abbr',
-  cha: 'MY_FVTT_SYSTEM.Ability.Cha.abbr',
+HOLY_GRAIL_WAR_TRPG.abilityAbbreviations = {
+  str: 'HOLY_GRAIL_WAR_TRPG.Ability.Str.abbr',
+  dex: 'HOLY_GRAIL_WAR_TRPG.Ability.Dex.abbr',
+  con: 'HOLY_GRAIL_WAR_TRPG.Ability.Con.abbr',
+  int: 'HOLY_GRAIL_WAR_TRPG.Ability.Int.abbr',
+  wis: 'HOLY_GRAIL_WAR_TRPG.Ability.Wis.abbr',
+  cha: 'HOLY_GRAIL_WAR_TRPG.Ability.Cha.abbr',
 };
 
-MY_FVTT_SYSTEM.statuses = {
-  strength: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Strength',
-  constitution: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Constitution',
-  dexterity: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Dexterity',
-  mana: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Mana',
-  luck: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.Luck',
-  noble_phantasm: 'MY_FVTT_SYSTEM.Actor.BaseActor.Statuses.NoblePhantasm',
+HOLY_GRAIL_WAR_TRPG.statuses = {
+  strength: 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Strength',
+  constitution: 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Constitution',
+  dexterity: 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Dexterity',
+  mana: 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Mana',
+  luck: 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.Luck',
+  noble_phantasm: 'HOLY_GRAIL_WAR_TRPG.Actor.BaseActor.Statuses.NoblePhantasm',
 };
