@@ -1,9 +1,9 @@
 // Import document classes.
-import { MyFVTTSystemActor } from './documents/actor.mjs';
-import { MyFVTTSystemItem } from './documents/item.mjs';
+import { HolyGrailWarTRPGActor } from './documents/actor.mjs';
+import { HolyGrailWarTRPGItem } from './documents/item.mjs';
 // Import sheet classes.
-import { MyFVTTSystemActorSheet } from './sheets/actor-sheet.mjs';
-import { MyFVTTSystemItemSheet } from './sheets/item-sheet.mjs';
+import { HolyGrailWarTRPGActorSheet } from './sheets/actor-sheet.mjs';
+import { HolyGrailWarTRPGItemSheet } from './sheets/item-sheet.mjs';
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
 import { MY_FVTT_SYSTEM } from './helpers/config.mjs';
@@ -18,8 +18,8 @@ Hooks.once('init', function () {
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
   game.myfvttsystem = {
-    MyFVTTSystemActor,
-    MyFVTTSystemItem,
+    HolyGrailWarTRPGActor,
+    HolyGrailWarTRPGItem,
     rollItemMacro,
   };
 
@@ -36,21 +36,21 @@ Hooks.once('init', function () {
   };
 
   // Define custom Document and DataModel classes
-  CONFIG.Actor.documentClass = MyFVTTSystemActor;
+  CONFIG.Actor.documentClass = HolyGrailWarTRPGActor;
 
   // Note that you don't need to declare a DataModel
   // for the base actor/item classes - they are included
   // with the Character/NPC as part of super.defineSchema()
   CONFIG.Actor.dataModels = {
-    character: models.MyFVTTSystemCharacter,
-    npc: models.MyFVTTSystemNPC,
-    master: models.MyFVTTSystemMaster
+    character: models.HolyGrailWarTRPGCharacter,
+    npc: models.HolyGrailWarTRPGNPC,
+    master: models.HolyGrailWarTRPGMaster
   }
-  CONFIG.Item.documentClass = MyFVTTSystemItem;
+  CONFIG.Item.documentClass = HolyGrailWarTRPGItem;
   CONFIG.Item.dataModels = {
-    item: models.MyFVTTSystemItem,
-    feature: models.MyFVTTSystemFeature,
-    spell: models.MyFVTTSystemSpell
+    item: models.HolyGrailWarTRPGItem,
+    feature: models.HolyGrailWarTRPGFeature,
+    spell: models.HolyGrailWarTRPGSpell
   }
 
   // Active Effects are never copied to the Actor,
@@ -60,12 +60,12 @@ Hooks.once('init', function () {
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet);
-  Actors.registerSheet('holy-grail-war-trpg', MyFVTTSystemActorSheet, {
+  Actors.registerSheet('holy-grail-war-trpg', HolyGrailWarTRPGActorSheet, {
     makeDefault: true,
     label: 'MY_FVTT_SYSTEM.SheetLabels.Actor',
   });
   Items.unregisterSheet('core', ItemSheet);
-  Items.registerSheet('holy-grail-war-trpg', MyFVTTSystemItemSheet, {
+  Items.registerSheet('holy-grail-war-trpg', HolyGrailWarTRPGItemSheet, {
     makeDefault: true,
     label: 'MY_FVTT_SYSTEM.SheetLabels.Item',
   });

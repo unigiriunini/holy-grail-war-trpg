@@ -1,6 +1,6 @@
-import MyFVTTSystemDataModel from "./base-model.mjs";
+import HolyGrailWarTRPGDataModel from "./base-model.mjs";
 
-export default class MyFVTTSystemActorBase extends MyFVTTSystemDataModel {
+export default class HolyGrailWarTRPGActorBase extends HolyGrailWarTRPGDataModel {
 
   static defineSchema() {
     const fields = foundry.data.fields;

@@ -1,3 +1,3 @@
-import MyFVTTSystemItemBase from "./base-item.mjs";
+import HolyGrailWarTRPGItemBase from "./base-item.mjs";
 
-export default class MyFVTTSystemFeature extends MyFVTTSystemItemBase {}
+export default class HolyGrailWarTRPGFeature extends HolyGrailWarTRPGItemBase {}

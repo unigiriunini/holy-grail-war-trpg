@@ -1,6 +1,6 @@
-import MyFVTTSystemItemBase from "./base-item.mjs";
+import HolyGrailWarTRPGItemBase from "./base-item.mjs";
 
-export default class MyFVTTSystemItem extends MyFVTTSystemItemBase {
+export default class HolyGrailWarTRPGItem extends HolyGrailWarTRPGItemBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;
