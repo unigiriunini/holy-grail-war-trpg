@@ -2,7 +2,7 @@
 
 ![Foundry v11](https://img.shields.io/badge/foundry-v11-green)
 
-This system is a my-fvtt-system system that you can use as a starting point for building your own custom systems. It's similar to Simple World-building, but has examples of creating attributes in code rather than dynamically through the UI.
+This system is a holy-grail-war-trpg system that you can use as a starting point for building your own custom systems. It's similar to Simple World-building, but has examples of creating attributes in code rather than dynamically through the UI.
 
 ## Usage
 
@@ -20,7 +20,7 @@ This system includes a generator CLI in `package.json`. To use it, you must have
 
 > **Python Generator**
 > 
-> If you would rather use Python than node, there’s an excellent Python-based generator created by Cussa at https://github.com/Cussa/fvtt-my-fvtt-system-initializator. Give it a shot!
+> If you would rather use Python than node, there’s an excellent Python-based generator created by Cussa at https://github.com/Cussa/fvtt-holy-grail-war-trpg-initializator. Give it a shot!
 
 Once you have npm installed, you can run the following in your terminal or command prompt:
 
@@ -37,7 +37,7 @@ Copy this directory over to your Foundry systems directory and start coding!
 
 ### Manual Replacement
 
-Before installing this system, you should rename any files that have `my-fvtt-system` in their filename to use whatever machine-safe name your system needs, such as `adnd2e` if you were building a system for 2nd edition Advanced Dungeons & Dragons. In addition, you should search through the files for `my-fvtt-system` and `MyFVTTSystem` and do the same for those, replacing them with appropriate names for your system.
+Before installing this system, you should rename any files that have `holy-grail-war-trpg` in their filename to use whatever machine-safe name your system needs, such as `adnd2e` if you were building a system for 2nd edition Advanced Dungeons & Dragons. In addition, you should search through the files for `holy-grail-war-trpg` and `MyFVTTSystem` and do the same for those, replacing them with appropriate names for your system.
 
 The `name` property in your `system.json` file is your system's package name. This need to be formatted `alphanumeric-lowercase`, and it must also match the foldername you use for your system.
 
@@ -47,7 +47,7 @@ The `name` property in your `system.json` file is your system's package name. Th
 
 Alternatively, there's another build of this system that supports using Vue 3 components (ES module build target) for character sheet templates.
 
-Head over to the [Vue3MyFVTTSystem System](https://gitlab.com/asacolips-projects/foundry-mods/vue3my-fvtt-system) repo if you're interested in using Vue!
+Head over to the [Vue3MyFVTTSystem System](https://gitlab.com/asacolips-projects/foundry-mods/vue3holy-grail-war-trpg) repo if you're interested in using Vue!
 
 ### Getting Help
 
@@ -79,4 +79,4 @@ This system includes a handful of helper CSS classes to help you lay out your sh
 
 This repo includes both CSS for the theme and SCSS source files. If you're new to CSS, it's probably easier to just work in those files directly and delete the SCSS directory. If you're interested in using a CSS preprocessor to add support for nesting, variables, and more, you can run `npm install` in this directory to install the dependencies for the scss compiler. After that, just run `npm run build` to compile the SCSS and start a process that watches for new changes.
 
-![image](http://mattsmith.in/images/my-fvtt-system.png)
+![image](http://mattsmith.in/images/holy-grail-war-trpg.png)

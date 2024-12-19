@@ -60,12 +60,12 @@ Hooks.once('init', function () {
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet);
-  Actors.registerSheet('my-fvtt-system', MyFVTTSystemActorSheet, {
+  Actors.registerSheet('holy-grail-war-trpg', MyFVTTSystemActorSheet, {
     makeDefault: true,
     label: 'MY_FVTT_SYSTEM.SheetLabels.Actor',
   });
   Items.unregisterSheet('core', ItemSheet);
-  Items.registerSheet('my-fvtt-system', MyFVTTSystemItemSheet, {
+  Items.registerSheet('holy-grail-war-trpg', MyFVTTSystemItemSheet, {
     makeDefault: true,
     label: 'MY_FVTT_SYSTEM.SheetLabels.Item',
   });
@@ -125,7 +125,7 @@ async function createItemMacro(data, slot) {
       type: 'script',
       img: item.img,
       command: command,
-      flags: { 'my-fvtt-system.itemMacro': true },
+      flags: { 'holy-grail-war-trpg.itemMacro': true },
     });
   }
   game.user.assignHotbarMacro(macro, slot);

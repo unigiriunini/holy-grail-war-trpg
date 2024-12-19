@@ -1,5 +1,5 @@
 {
-  "id": "my-fvtt-system",
+  "id": "holy-grail-war-trpg",
   "title": "My FVTT System",
   "description": "The My FVTT System system for FoundryVTT!",
   "authors": [
@@ -8,16 +8,16 @@
       "discord": "unigiri"
     }
   ],
-  "url": "https://github.com/unigiriunini/my-fvtt-systemy",
+  "url": "https://github.com/unigiriunini/holy-grail-war-trpgy",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "https://github.com/unigiriunini/my-fvtt-system/issues",
+  "bugs": "https://github.com/unigiriunini/holy-grail-war-trpg/issues",
   "changelog": "CHANGELOG.md",
   "media": [
     {
       "type": "setup",
-      "url": "systems/my-fvtt-system/assets/unigiri.png",
-      "thumbnail": "systems/my-fvtt-system/assets/unigiri.png"
+      "url": "systems/holy-grail-war-trpg/assets/unigiri.png",
+      "thumbnail": "systems/holy-grail-war-trpg/assets/unigiri.png"
     }
   ],
   "version": "0.0.1",
@@ -25,8 +25,8 @@
     "minimum": 11,
     "verified": "11.315"
   },
-  "esmodules": ["module/my-fvtt-system.mjs"],
-  "styles": ["css/my-fvtt-system.css"],
+  "esmodules": ["module/holy-grail-war-trpg.mjs"],
+  "styles": ["css/holy-grail-war-trpg.css"],
   "languages": [
     {
       "lang": "en",
@@ -44,7 +44,7 @@
   "socket": false,
   "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
   "download": "This must link to a .zip file of the current version",
-  "background": "systems/my-fvtt-system/assets/unigiri.png",
+  "background": "systems/holy-grail-war-trpg/assets/unigiri.png",
   "gridDistance": 5,
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",

@@ -11,7 +11,7 @@ export class MyFVTTSystemItemSheet extends ItemSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['my-fvtt-system', 'sheet', 'item'],
+      classes: ['holy-grail-war-trpg', 'sheet', 'item'],
       width: 520,
       height: 480,
       tabs: [
@@ -26,7 +26,7 @@ export class MyFVTTSystemItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = 'systems/my-fvtt-system/templates/item';
+    const path = 'systems/holy-grail-war-trpg/templates/item';
     // Return a single sheet for all item types.
     // return `${path}/item-sheet.hbs`;
 
