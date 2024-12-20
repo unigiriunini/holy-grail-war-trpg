@@ -1,4 +1,4 @@
-export default class MyFVTTSystemDataModel extends foundry.abstract.TypeDataModel {
+export default class HolyGrailWarTRPGDataModel extends foundry.abstract.TypeDataModel {
   /**
    * Convert the schema to a plain object.
    * 

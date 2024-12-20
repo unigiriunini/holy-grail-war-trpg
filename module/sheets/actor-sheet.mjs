@@ -7,11 +7,11 @@ import {
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class MyFVTTSystemActorSheet extends ActorSheet {
+export class HolyGrailWarTRPGActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['my-fvtt-system', 'sheet', 'actor'],
+      classes: ['holy-grail-war-trpg', 'sheet', 'actor'],
       width: 600,
       height: 600,
       tabs: [
@@ -26,7 +26,7 @@ export class MyFVTTSystemActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/my-fvtt-system/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+    return `systems/holy-grail-war-trpg/templates/actor/actor-${this.actor.type}-sheet.hbs`;
   }
 
   /* -------------------------------------------- */
@@ -46,8 +46,8 @@ export class MyFVTTSystemActorSheet extends ActorSheet {
     context.system = actorData.system;
     context.flags = actorData.flags;
 
-    // Adding a pointer to CONFIG.MY_FVTT_SYSTEM
-    context.config = CONFIG.MY_FVTT_SYSTEM;
+    // Adding a pointer to CONFIG.HOLY_GRAIL_WAR_TRPG
+    context.config = CONFIG.HOLY_GRAIL_WAR_TRPG;
 
     // Prepare character data and items.
     if (actorData.type == 'character') {

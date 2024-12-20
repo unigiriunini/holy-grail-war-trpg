@@ -6,11 +6,11 @@
 export const preloadHandlebarsTemplates = async function () {
   return loadTemplates([
     // Actor partials.
-    'systems/my-fvtt-system/templates/actor/parts/actor-features.hbs',
-    'systems/my-fvtt-system/templates/actor/parts/actor-items.hbs',
-    'systems/my-fvtt-system/templates/actor/parts/actor-spells.hbs',
-    'systems/my-fvtt-system/templates/actor/parts/actor-effects.hbs',
+    'systems/holy-grail-war-trpg/templates/actor/parts/actor-features.hbs',
+    'systems/holy-grail-war-trpg/templates/actor/parts/actor-items.hbs',
+    'systems/holy-grail-war-trpg/templates/actor/parts/actor-spells.hbs',
+    'systems/holy-grail-war-trpg/templates/actor/parts/actor-effects.hbs',
     // Item partials
-    'systems/my-fvtt-system/templates/item/parts/item-effects.hbs',
+    'systems/holy-grail-war-trpg/templates/item/parts/item-effects.hbs',
   ]);
 };

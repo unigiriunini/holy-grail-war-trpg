@@ -43,17 +43,17 @@ export function prepareActiveEffectCategories(effects) {
   const categories = {
     temporary: {
       type: 'temporary',
-      label: game.i18n.localize('MY_FVTT_SYSTEM.Effect.Temporary'),
+      label: game.i18n.localize('HOLY_GRAIL_WAR_TRPG.Effect.Temporary'),
       effects: [],
     },
     passive: {
       type: 'passive',
-      label: game.i18n.localize('MY_FVTT_SYSTEM.Effect.Passive'),
+      label: game.i18n.localize('HOLY_GRAIL_WAR_TRPG.Effect.Passive'),
       effects: [],
     },
     inactive: {
       type: 'inactive',
-      label: game.i18n.localize('MY_FVTT_SYSTEM.Effect.Inactive'),
+      label: game.i18n.localize('HOLY_GRAIL_WAR_TRPG.Effect.Inactive'),
       effects: [],
     },
   };

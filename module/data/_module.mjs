@@ -1,11 +1,11 @@
 // Export Actors
-export {default as MyFVTTSystemActorBase} from "./base-actor.mjs";
-export {default as MyFVTTSystemCharacter} from "./actor-character.mjs";
-export {default as MyFVTTSystemNPC} from "./actor-npc.mjs";
-export {default as MyFVTTSystemMaster} from "./actor-master.mjs";
+export {default as HolyGrailWarTRPGActorBase} from "./base-actor.mjs";
+export {default as HolyGrailWarTRPGCharacter} from "./actor-character.mjs";
+export {default as HolyGrailWarTRPGNPC} from "./actor-npc.mjs";
+export {default as HolyGrailWarTRPGMaster} from "./actor-master.mjs";
 
 // Export Items
-export {default as MyFVTTSystemItemBase} from "./base-item.mjs";
-export {default as MyFVTTSystemItem} from "./item-item.mjs";
-export {default as MyFVTTSystemFeature} from "./item-feature.mjs";
-export {default as MyFVTTSystemSpell} from "./item-spell.mjs";
+export {default as HolyGrailWarTRPGItemBase} from "./base-item.mjs";
+export {default as HolyGrailWarTRPGItem} from "./item-item.mjs";
+export {default as HolyGrailWarTRPGFeature} from "./item-feature.mjs";
+export {default as HolyGrailWarTRPGSpell} from "./item-spell.mjs";

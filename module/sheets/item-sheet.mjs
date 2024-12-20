@@ -7,11 +7,11 @@ import {
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-export class MyFVTTSystemItemSheet extends ItemSheet {
+export class HolyGrailWarTRPGItemSheet extends ItemSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['my-fvtt-system', 'sheet', 'item'],
+      classes: ['holy-grail-war-trpg', 'sheet', 'item'],
       width: 520,
       height: 480,
       tabs: [
@@ -26,7 +26,7 @@ export class MyFVTTSystemItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = 'systems/my-fvtt-system/templates/item';
+    const path = 'systems/holy-grail-war-trpg/templates/item';
     // Return a single sheet for all item types.
     // return `${path}/item-sheet.hbs`;
 
@@ -65,8 +65,8 @@ export class MyFVTTSystemItemSheet extends ItemSheet {
     context.system = itemData.system;
     context.flags = itemData.flags;
 
-    // Adding a pointer to CONFIG.MY_FVTT_SYSTEM
-    context.config = CONFIG.MY_FVTT_SYSTEM;
+    // Adding a pointer to CONFIG.HOLY_GRAIL_WAR_TRPG
+    context.config = CONFIG.HOLY_GRAIL_WAR_TRPG;
 
     // Prepare active effects for easier access
     context.effects = prepareActiveEffectCategories(this.item.effects);

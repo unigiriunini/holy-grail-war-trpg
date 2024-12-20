@@ -1,12 +1,12 @@
 // Import document classes.
-import { MyFVTTSystemActor } from './documents/actor.mjs';
-import { MyFVTTSystemItem } from './documents/item.mjs';
+import { HolyGrailWarTRPGActor } from './documents/actor.mjs';
+import { HolyGrailWarTRPGItem } from './documents/item.mjs';
 // Import sheet classes.
-import { MyFVTTSystemActorSheet } from './sheets/actor-sheet.mjs';
-import { MyFVTTSystemItemSheet } from './sheets/item-sheet.mjs';
+import { HolyGrailWarTRPGActorSheet } from './sheets/actor-sheet.mjs';
+import { HolyGrailWarTRPGItemSheet } from './sheets/item-sheet.mjs';
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
-import { MY_FVTT_SYSTEM } from './helpers/config.mjs';
+import { HOLY_GRAIL_WAR_TRPG } from './helpers/config.mjs';
 // Import DataModel classes
 import * as models from './data/_module.mjs';
 
@@ -17,14 +17,14 @@ import * as models from './data/_module.mjs';
 Hooks.once('init', function () {
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
-  game.myfvttsystem = {
-    MyFVTTSystemActor,
-    MyFVTTSystemItem,
+  game.holygrailwartrpg = {
+    HolyGrailWarTRPGActor,
+    HolyGrailWarTRPGItem,
     rollItemMacro,
   };
 
   // Add custom constants for configuration.
-  CONFIG.MY_FVTT_SYSTEM = MY_FVTT_SYSTEM;
+  CONFIG.HOLY_GRAIL_WAR_TRPG = HOLY_GRAIL_WAR_TRPG;
 
   /**
    * Set an initiative formula for the system
@@ -36,21 +36,21 @@ Hooks.once('init', function () {
   };
 
   // Define custom Document and DataModel classes
-  CONFIG.Actor.documentClass = MyFVTTSystemActor;
+  CONFIG.Actor.documentClass = HolyGrailWarTRPGActor;
 
   // Note that you don't need to declare a DataModel
   // for the base actor/item classes - they are included
   // with the Character/NPC as part of super.defineSchema()
   CONFIG.Actor.dataModels = {
-    character: models.MyFVTTSystemCharacter,
-    npc: models.MyFVTTSystemNPC,
-    master: models.MyFVTTSystemMaster
+    character: models.HolyGrailWarTRPGCharacter,
+    npc: models.HolyGrailWarTRPGNPC,
+    master: models.HolyGrailWarTRPGMaster
   }
-  CONFIG.Item.documentClass = MyFVTTSystemItem;
+  CONFIG.Item.documentClass = HolyGrailWarTRPGItem;
   CONFIG.Item.dataModels = {
-    item: models.MyFVTTSystemItem,
-    feature: models.MyFVTTSystemFeature,
-    spell: models.MyFVTTSystemSpell
+    item: models.HolyGrailWarTRPGItem,
+    feature: models.HolyGrailWarTRPGFeature,
+    spell: models.HolyGrailWarTRPGSpell
   }
 
   // Active Effects are never copied to the Actor,
@@ -60,14 +60,14 @@ Hooks.once('init', function () {
 
   // Register sheet application classes
   Actors.unregisterSheet('core', ActorSheet);
-  Actors.registerSheet('my-fvtt-system', MyFVTTSystemActorSheet, {
+  Actors.registerSheet('holy-grail-war-trpg', HolyGrailWarTRPGActorSheet, {
     makeDefault: true,
-    label: 'MY_FVTT_SYSTEM.SheetLabels.Actor',
+    label: 'HOLY_GRAIL_WAR_TRPG.SheetLabels.Actor',
   });
   Items.unregisterSheet('core', ItemSheet);
-  Items.registerSheet('my-fvtt-system', MyFVTTSystemItemSheet, {
+  Items.registerSheet('holy-grail-war-trpg', HolyGrailWarTRPGItemSheet, {
     makeDefault: true,
-    label: 'MY_FVTT_SYSTEM.SheetLabels.Item',
+    label: 'HOLY_GRAIL_WAR_TRPG.SheetLabels.Item',
   });
 
   // Preload Handlebars templates.
@@ -115,7 +115,7 @@ async function createItemMacro(data, slot) {
   const item = await Item.fromDropData(data);
 
   // Create the macro command using the uuid.
-  const command = `game.myfvttsystem.rollItemMacro("${data.uuid}");`;
+  const command = `game.holygrailwartrpg.rollItemMacro("${data.uuid}");`;
   let macro = game.macros.find(
     (m) => m.name === item.name && m.command === command
   );
@@ -125,7 +125,7 @@ async function createItemMacro(data, slot) {
       type: 'script',
       img: item.img,
       command: command,
-      flags: { 'my-fvtt-system.itemMacro': true },
+      flags: { 'holy-grail-war-trpg.itemMacro': true },
     });
   }
   game.user.assignHotbarMacro(macro, slot);
