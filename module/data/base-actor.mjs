@@ -18,19 +18,7 @@ export default class HolyGrailWarTRPGActorBase extends HolyGrailWarTRPGDataModel
     schema.biography = new fields.StringField({ required: true, blank: true }); // equivalent to passing ({initial: ""}) for StringFields
 
     schema.appearance = new fields.StringField({ required: true, blank: true });
-    schema.note = new fields.StringField({ required: true, blank: true });
-    schema.sex = new fields.StringField({ required: true, blank: true });
-    schema.law_versus_chaos_alignment = new fields.StringField({ required: true, blank: true });
-    schema.good_versus_evil_alignment = new fields.StringField({ required: true, blank: true });
-
-    schema.statuses = new fields.SchemaField(Object.keys(CONFIG.HOLY_GRAIL_WAR_TRPG.statuses).reduce((obj, status) => {
-      obj[status] = new fields.SchemaField({
-        value: new fields.StringField({ required: true, blank: true }),
-        plus: new fields.StringField({ required: true, blank: true }),
-        ex: new fields.StringField({ required: true, blank: true })
-      });
-      return obj;
-    }, {}));
+    schema.note = new fields.HTMLField({ required: true, blank: true });
 
     return schema;
   }
