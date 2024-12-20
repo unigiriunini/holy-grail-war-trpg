@@ -8,6 +8,10 @@
       "Master": {
         "Name": "名前",
         "Wish": "願い事"
+      },
+      "Servant": {
+        "TrueName": "真名",
+        "Wish": "願い事"
       }
     },
     "Template": {
@@ -23,7 +27,8 @@
     "Actor": {
       "character": "キャラクター",
       "npc": "NPC",
-      "master": "マスター"
+      "master": "マスター",
+      "servant": "サーヴァント"
     }
   }
 }

@@ -16,6 +16,10 @@
       "Master": {
         "Name": "Name",
         "Wish": "Wish"
+      },
+      "Servant": {
+        "TrueName": "True Name",
+        "Wish": "Wish"
       }
     },
     "SheetLabels": {
@@ -48,7 +52,8 @@
     "Actor": {
       "character": "Character",
       "npc": "NPC",
-      "mater": "Master"
+      "mater": "Master",
+      "servant": "Servant"
     },
     "Item": {
       "item": "Item",

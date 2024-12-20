@@ -44,7 +44,8 @@ Hooks.once('init', function () {
   CONFIG.Actor.dataModels = {
     character: models.HolyGrailWarTRPGCharacter,
     npc: models.HolyGrailWarTRPGNPC,
-    master: models.HolyGrailWarTRPGMaster
+    master: models.HolyGrailWarTRPGMaster,
+    servant: models.HolyGrailWarTRPGServant
   }
   CONFIG.Item.documentClass = HolyGrailWarTRPGItem;
   CONFIG.Item.dataModels = {
