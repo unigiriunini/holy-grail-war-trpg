@@ -49,6 +49,7 @@ Hooks.once('init', function () {
   }
   CONFIG.Item.documentClass = HolyGrailWarTRPGItem;
   CONFIG.Item.dataModels = {
+    fame: models.HolyGrailWarTRPGFame,
     item: models.HolyGrailWarTRPGItem,
     feature: models.HolyGrailWarTRPGFeature,
     spell: models.HolyGrailWarTRPGSpell
