@@ -43,6 +43,10 @@
         "Name": "Constraint Name",
         "Description": "Constraint Description"
       },
+      "HolyGrailFragment": {
+        "Name": "Holy Grail Fragment Name",
+        "Description": "Holy Grail Fragment Description"
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -75,6 +79,7 @@
       "fame": "Fame",
       "roots": "Roots",
       "constraint": "Constraint",
+      "holyGrailFragment": "Holy Grail Fragment",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
