@@ -26,6 +26,13 @@
         "Level": "家名",
         "InsightDifficulty": "看破目標値",
         "BattlefieldPlacementPoint": "戦場配置点"
+      },
+      "Roots": {
+        "Name": "ルーツ名",
+        "Trait": {
+          "Name": "ルーツ特性名",
+          "Description": "ルーツ特性効果"
+        }
       }
     }
   },
@@ -38,7 +45,8 @@
       "servant": "サーヴァント"
     },
     "Item": {
-      "fame": "家名"
+      "fame": "家名",
+      "roots": "ルーツ"
     }
   }
 }

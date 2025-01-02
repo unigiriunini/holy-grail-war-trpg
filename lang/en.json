@@ -32,6 +32,13 @@
         "InsightDifficulty": "Insight Difficulty",
         "BattlefieldPlacementPoint": "Battlefield Placement Point"
       },
+      "Roots": {
+        "Name": "Roots Name",
+        "Trait": {
+          "Name": "Roots Trait Name",
+          "Description": "Roots Trait Description"
+        }
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -62,6 +69,7 @@
     },
     "Item": {
       "fame": "Fame",
+      "roots": "Roots",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
