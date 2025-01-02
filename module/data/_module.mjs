@@ -10,3 +10,4 @@ export {default as HolyGrailWarTRPGItemBase} from "./base-item.mjs";
 export {default as HolyGrailWarTRPGItem} from "./item-item.mjs";
 export {default as HolyGrailWarTRPGFeature} from "./item-feature.mjs";
 export {default as HolyGrailWarTRPGSpell} from "./item-spell.mjs";
+export {default as HolyGrailWarTRPGFame } from "./item-fame.mjs";

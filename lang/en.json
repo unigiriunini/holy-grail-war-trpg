@@ -27,6 +27,11 @@
       "Item": "HolyGrailWarTRPG Item Sheet"
     },
     "Item": {
+      "Fame": {
+        "Level": "Level",
+        "InsightDifficulty": "Insight Difficulty",
+        "BattlefieldPlacementPoint": "Battlefield Placement Point"
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -56,6 +61,7 @@
       "servant": "Servant"
     },
     "Item": {
+      "fame": "Fame",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
