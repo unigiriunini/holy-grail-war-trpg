@@ -51,6 +51,7 @@ Hooks.once('init', function () {
   CONFIG.Item.dataModels = {
     fame: models.HolyGrailWarTRPGFame,
     roots: models.HolyGrailWarTRPGRoots,
+    constraint: models.HolyGrailWarTRPGConstraint,
     item: models.HolyGrailWarTRPGItem,
     feature: models.HolyGrailWarTRPGFeature,
     spell: models.HolyGrailWarTRPGSpell
