@@ -8,6 +8,7 @@ export default class HolyGrailWarTRPGHolyGrailFragment extends HolyGrailWarTRPGI
 
     schema.name = new fields.StringField({ required: true, blank: true });
     schema.description = new fields.StringField({ required: true, blank: true });
+    schema.consumed = new fields.BooleanField({ required: true, nullable: false, initial: false });
 
     return schema;
   }
