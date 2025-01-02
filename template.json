@@ -3,6 +3,6 @@
     "types": ["character", "npc", "master", "servant"]
   },
   "Item": {
-    "types": ["item", "feature", "spell", "fame"]
+    "types": ["item", "feature", "spell", "fame", "roots"]
   }
 }
