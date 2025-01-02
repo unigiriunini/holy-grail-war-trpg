@@ -20,6 +20,13 @@
           "BasicData": "基本データ"
         }
       }
+    },
+    "Item": {
+      "Fame": {
+        "Level": "家名",
+        "InsightDifficulty": "看破目標値",
+        "BattlefieldPlacementPoint": "戦場配置点"
+      }
     }
   },
 
@@ -29,6 +36,9 @@
       "npc": "NPC",
       "master": "マスター",
       "servant": "サーヴァント"
+    },
+    "Item": {
+      "fame": "家名"
     }
   }
 }
