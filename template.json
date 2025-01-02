@@ -3,6 +3,6 @@
     "types": ["character", "npc", "master", "servant"]
   },
   "Item": {
-    "types": ["item", "feature", "spell", "fame", "roots", "constraint"]
+    "types": ["item", "feature", "spell", "fame", "roots", "constraint", "holyGrailFragment"]
   }
 }

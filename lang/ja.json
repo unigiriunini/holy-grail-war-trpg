@@ -37,6 +37,10 @@
       "Constraint": {
         "Name": "制約名",
         "Description": "制約内容"
+      },
+      "HolyGrailFragment": {
+        "Name": "効果名",
+        "Description": "効果内容"
       }
     }
   },
@@ -51,7 +55,8 @@
     "Item": {
       "fame": "家名",
       "roots": "ルーツ",
-      "constraint": "制約"
+      "constraint": "制約",
+      "holyGrailFragment": "幻想の聖杯片"
     }
   }
 }
