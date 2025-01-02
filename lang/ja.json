@@ -33,6 +33,10 @@
           "Name": "ルーツ特性名",
           "Description": "ルーツ特性効果"
         }
+      },
+      "Constraint": {
+        "Name": "制約名",
+        "Description": "制約内容"
       }
     }
   },
@@ -46,7 +50,8 @@
     },
     "Item": {
       "fame": "家名",
-      "roots": "ルーツ"
+      "roots": "ルーツ",
+      "constraint": "制約"
     }
   }
 }

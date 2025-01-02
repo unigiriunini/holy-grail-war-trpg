@@ -39,6 +39,10 @@
           "Description": "Roots Trait Description"
         }
       },
+      "Constraint": {
+        "Name": "Constraint Name",
+        "Description": "Constraint Description"
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -70,6 +74,7 @@
     "Item": {
       "fame": "Fame",
       "roots": "Roots",
+      "constraint": "Constraint",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
