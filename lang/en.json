@@ -45,7 +45,8 @@
       },
       "HolyGrailFragment": {
         "Name": "Holy Grail Fragment Name",
-        "Description": "Holy Grail Fragment Description"
+        "Description": "Holy Grail Fragment Description",
+        "Consumed": "Consumed"
       },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
