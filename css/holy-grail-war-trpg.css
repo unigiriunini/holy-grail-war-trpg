@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 /* Global styles */
 .window-app {
@@ -364,3 +365,187 @@
 .holy-grail-war-trpg .effects .item .effect-controls {
   border: none;
 }
+
+/* スタイルシートぜんぶ把握できてないのでActor Sheet部分のみを切り出しておいておく */
+.actor {
+  /* メインエリア */
+  /* 画像 */
+  /* プロフィール（クラス・ルーツ・容姿・属性等）*/
+  /* ステータス */
+  /* スキル */
+}
+.actor .window-content {
+  display: flex;
+  flex-direction: column;
+  background: #242d31;
+  color: #eee;
+  font-family: sans-serif;
+  padding: 0;
+}
+.actor * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.actor .content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: max-content;
+  padding: 15px;
+  z-index: 1;
+}
+.actor .thumbnail {
+  overflow: hidden;
+}
+.actor .thumbnail .inner {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+.actor .thumbnail .inner::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  bottom: 7px;
+  left: 7px;
+  border: 1px solid #cda678;
+  z-index: 1;
+}
+.actor .thumbnail__image {
+  max-height: 200px;
+  max-width: 200px;
+  border: 3px solid #cda678;
+}
+.actor .thumbnail__frame:before, .actor .thumbnail__frame:after {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  content: "";
+  background-color: #242d31;
+  border: 3px solid #cda678;
+}
+.actor .thumbnail__frame--left:before {
+  top: -5px;
+  left: -5px;
+}
+.actor .thumbnail__frame--left:after {
+  top: -5px;
+  right: -5px;
+}
+.actor .thumbnail__frame--right:before {
+  right: -5px;
+  bottom: -5px;
+}
+.actor .thumbnail__frame--right:after {
+  left: -5px;
+  bottom: -5px;
+}
+.actor .profile {
+  margin: 10px 0 0 30px;
+  width: calc(100% - 240px);
+}
+.actor .profile__heading {
+  position: relative;
+  font-size: 16px;
+}
+.actor .profile__heading::first-letter {
+  font-size: 1.5em;
+}
+.actor .profile__heading::before {
+  position: absolute;
+  display: block;
+  height: 1px;
+  content: "";
+  background-color: #ccc;
+  width: 45px;
+  bottom: 20px;
+  left: 50px;
+  transform: rotate(310deg);
+}
+.actor .profile__text {
+  display: flex;
+  align-items: end;
+  margin-top: 8px;
+  border-bottom: 1px solid #ccc;
+}
+.actor .profile__text p:first-child {
+  font-size: 10px;
+  width: 70px;
+}
+.actor .profile__text p:first-child::first-letter {
+  font-size: 1.5em;
+}
+.actor .profile__text p:last-child {
+  font-size: 16px;
+}
+.actor .status {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.actor .status__heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.actor .status__heading::first-letter {
+  font-size: 1.5em;
+}
+.actor .status__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.actor .status__label {
+  width: 30px;
+  margin-right: 10px;
+}
+.actor .status__bar {
+  display: flex;
+  gap: 1px;
+  width: 200px;
+  height: 15px;
+}
+.actor .status__bar .segment {
+  flex: 1;
+  background-color: #555;
+  box-sizing: border-box;
+}
+.actor .status__bar .segment:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.actor .status__bar .segment:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.actor .status__bar .segment--active {
+  background-color: #e57829;
+}
+.actor .status__bar .segment--active-ex {
+  background-color: #e5c329;
+}
+.actor .status__rank {
+  width: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.actor .skills {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.actor .skills__heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.actor .skills__heading::first-letter {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=holy-grail-war-trpg.css.map */

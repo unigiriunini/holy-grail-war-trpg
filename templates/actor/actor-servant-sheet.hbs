@@ -1,0 +1,112 @@
+<form class="{{cssClass}} {{actor.type}}" autocomplete="off">
+  <div class="content">
+    <div class="thumbnail">
+      <div class="inner">
+        <div class="thumbnail__frame thumbnail__frame--left"></div>
+        <div class="thumbnail__frame thumbnail__frame--right"></div>
+        <img
+          class="thumbnail__image"
+          alt="サーヴァント画像"
+          src="icons/svg/mystery-man.svg"
+        />
+      </div>
+    </div>
+
+    <div class="profile">
+      <div class="profile__heading">PROFILE</div>
+      <div class="profile__text">
+        <p>CLASS</p>
+        <p>アーチャー</p>
+      </div>
+      <div class="profile__text">
+        <p>HOGE</p>
+        <p>ダミー</p>
+      </div>
+      <div class="profile__text">
+        <p>HOGE</p>
+        <p>ダミー</p>
+      </div>
+    </div>
+
+    <!-- ステータス -->
+    <!-- NOTE: とりあえず個数に応じてactiveクラスをつけると変わるようにしている-->
+    <div class="status">
+      <div class="status__heading">STATUS</div>
+      <div class="status__row">
+        <div class="status__label">筋力</div>
+        <div class="status__bar">
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+        </div>
+        <div class="status__rank">D</div>
+      </div>
+      <div class="status__row">
+        <div class="status__label">耐久</div>
+        <div class="status__bar">
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+        </div>
+        <div class="status__rank">C</div>
+      </div>
+      <div class="status__row">
+        <div class="status__label">敏捷</div>
+        <div class="status__bar">
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+        </div>
+        <div class="status__rank">C</div>
+      </div>
+      <div class="status__row">
+        <div class="status__label">魔力</div>
+        <div class="status__bar">
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment segment--active"></div>
+          <div class="segment"></div>
+        </div>
+        <div class="status__rank">B</div>
+      </div>
+      <div class="status__row">
+        <div class="status__label">幸運</div>
+        <div class="status__bar">
+          <div class="segment segment--active"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+        </div>
+        <div class="status__rank">E</div>
+      </div>
+      <div class="status__row">
+        <div class="status__label">宝具</div>
+        <div class="status__bar">
+          <div class="segment segment--active-ex"></div>
+          <div class="segment segment--active-ex"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+          <div class="segment"></div>
+        </div>
+        <div class="status__rank">EX(D)</div>
+      </div>
+    </div>
+
+        <!-- スキル -->
+    <!-- TODO: 別タブに切り分けたほうがいいかもしれない-->
+    <div class="skills">
+      <div class="skills__heading">SKILLS</div>
+      <div class="skills__skill">
+        スキル1
+      </div>
+    </div>
+  </div>
+</form>
