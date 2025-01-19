@@ -53,6 +53,7 @@ Hooks.once('init', function () {
     roots: models.HolyGrailWarTRPGRoots,
     constraint: models.HolyGrailWarTRPGConstraint,
     holyGrailFragment: models.HolyGrailWarTRPGHolyGrailFragment,
+    latentMagecraft: models.HolyGrailWarTRPGLatentMagecraft,
     item: models.HolyGrailWarTRPGItem,
     feature: models.HolyGrailWarTRPGFeature,
     spell: models.HolyGrailWarTRPGSpell

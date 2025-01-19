@@ -42,6 +42,19 @@
         "Name": "効果名",
         "Description": "効果内容",
         "Consumed": "消費済み"
+      },
+      "LatentMagecraft": {
+        "ConsumedHolyGrailFragment": "消費聖杯片個数",
+        "LatentMagecraftPoint": "潜在魔術作成点",
+        "Type": "タイプ",
+        "TriggeringTiming": {
+          "Description": "発動タイミング内容",
+          "ConsumedLatentMagecraftPoint": "消費作成点"
+        },
+        "Effect": {
+          "Description": "効果内容",
+          "ConsumedLatentMagecraftPoint": "消費作成点"
+        }
       }
     }
   },
@@ -57,7 +70,8 @@
       "fame": "家名",
       "roots": "ルーツ",
       "constraint": "制約",
-      "holyGrailFragment": "幻想の聖杯片"
+      "holyGrailFragment": "幻想の聖杯片",
+      "latentMagecraft": "潜在魔術"
     }
   }
 }
