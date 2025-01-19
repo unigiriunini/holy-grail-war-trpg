@@ -15,3 +15,4 @@ export {default as HolyGrailWarTRPGRoots } from "./item-roots.mjs";
 export {default as HolyGrailWarTRPGConstraint } from "./item-constraint.mjs";
 export {default as HolyGrailWarTRPGHolyGrailFragment} from "./item-holy-grail-fragment.mjs";
 export {default as HolyGrailWarTRPGLatentMagecraft} from "./item-latent-magecraft.mjs";
+export {default as HolyGrailWarTRPGServantClass} from "./item-servant-class.mjs";

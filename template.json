@@ -3,6 +3,16 @@
     "types": ["character", "npc", "master", "servant"]
   },
   "Item": {
-    "types": ["item", "feature", "spell", "fame", "roots", "constraint", "holyGrailFragment", "latentMagecraft"]
+    "types": [
+      "item",
+      "feature",
+      "spell",
+      "fame",
+      "roots",
+      "constraint",
+      "holyGrailFragment",
+      "latentMagecraft",
+      "servantClass"
+    ]
   }
 }

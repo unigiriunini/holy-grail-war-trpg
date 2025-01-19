@@ -55,6 +55,21 @@
           "Description": "効果内容",
           "ConsumedLatentMagecraftPoint": "消費作成点"
         }
+      },
+      "ServantClass": {
+        "Name": "クラス名",
+        "Trait ": {
+          "Name": "クラス特性名",
+          "Description": "クラス特性効果説明文"
+        },
+        "LowerLimitStatus": {
+          "Strength": "筋力下限",
+          "Constitution": "耐久下限",
+          "Dexterity": "敏捷下限",
+          "Mana": "魔力下限",
+          "Luck": "幸運下限",
+          "NoblePhantasm": "宝具下限"
+        }
       }
     }
   },
@@ -71,7 +86,8 @@
       "roots": "ルーツ",
       "constraint": "制約",
       "holyGrailFragment": "幻想の聖杯片",
-      "latentMagecraft": "潜在魔術"
+      "latentMagecraft": "潜在魔術",
+      "servantClass": "クラス"
     }
   }
 }
