@@ -12,12 +12,12 @@ export default class HolyGrailWarTRPGLatentMagecraft extends HolyGrailWarTRPGIte
 
     schema.triggering_timing = new fields.SchemaField({
       description: new fields.StringField({ required: true, blank: true }),
-      consumed_latent_magecraft_point = new fields.NumberField({ required: true, nullable: false, initial: 0 })
+      consumed_latent_magecraft_point: new fields.NumberField({ required: true, nullable: false, initial: 0 })
     });
 
     schema.effect = new fields.SchemaField({
       description: new fields.StringField({ required: true, blank: true }),
-      consumed_latent_magecraft_point = new fields.NumberField({ required: true, nullable: false, initial: 0 })
+      consumed_latent_magecraft_point: new fields.NumberField({ required: true, nullable: false, initial: 0 })
     });
 
     return schema;
