@@ -12,7 +12,8 @@
       "constraint",
       "holyGrailFragment",
       "latentMagecraft",
-      "servantClass"
+      "servantClass",
+      "weakness"
     ]
   }
 }

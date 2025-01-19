@@ -76,6 +76,10 @@
           "NoblePhantasm": "Noble Phantasm's Lower Limit"
         }
       },
+      "Weakness": {
+        "Name": "Weakness Name",
+        "Description": "Weakness Description"
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -111,6 +115,7 @@
       "holyGrailFragment": "Holy Grail Fragment",
       "latentMagecraft": "Latent Magecraft",
       "servantClass": "Servant Class",
+      "weakness": "Weakness",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
