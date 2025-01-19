@@ -61,6 +61,21 @@
           "ConsumedLatentMagecraftPoint": "Effect's Consumed Latent Magecraft Point"
         }
       },
+      "ServantClass": {
+        "Name": "Servant Class Name",
+        "Trait ": {
+          "Name": "Trait Name",
+          "Description": "Trait Description"
+        },
+        "LowerLimitStatus": {
+          "Strength": "Strength's Lower Limit",
+          "Constitution": "Constitution's Lower Limit",
+          "Dexterity": "Dexterity's Lower Limit",
+          "Mana": "Mana's Lower Limit",
+          "Luck": "Luck's Lower Limit",
+          "NoblePhantasm": "Noble Phantasm's Lower Limit"
+        }
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -95,6 +110,7 @@
       "constraint": "Constraint",
       "holyGrailFragment": "Holy Grail Fragment",
       "latentMagecraft": "Latent Magecraft",
+      "servantClass": "Servant Class",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
