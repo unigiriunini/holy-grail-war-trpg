@@ -48,6 +48,19 @@
         "Description": "Holy Grail Fragment Description",
         "Consumed": "Consumed"
       },
+      "LatentMagecraft": {
+        "ConsumedHolyGrailFragment": "Consumed Holy Grail Fragment",
+        "LatentMagecraftPoint": "Latent Magecraft Point",
+        "Type": "Type",
+        "TriggeringTiming": {
+          "Description": "Triggering Timing Description",
+          "ConsumedLatentMagecraftPoint": "Triggering Timing's Consumed Latent Magecraft Point"
+        },
+        "Effect": {
+          "Description": "Effect Description",
+          "ConsumedLatentMagecraftPoint": "Effect's Consumed Latent Magecraft Point"
+        }
+      },
       "Spell": {
         "SpellLVL": "Level {level} Spells",
         "AddLVL": "Add LVL {level}"
@@ -81,6 +94,7 @@
       "roots": "Roots",
       "constraint": "Constraint",
       "holyGrailFragment": "Holy Grail Fragment",
+      "latentMagecraft": "Latent Magecraft",
       "item": "Item",
       "feature": "Feature",
       "spell": "Spell"
