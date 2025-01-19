@@ -70,6 +70,10 @@
           "Luck": "幸運下限",
           "NoblePhantasm": "宝具下限"
         }
+      },
+      "Weakness": {
+        "Name": "被特攻属性名",
+        "Description": "被特攻属性説明文"
       }
     }
   },
@@ -87,7 +91,8 @@
       "constraint": "制約",
       "holyGrailFragment": "幻想の聖杯片",
       "latentMagecraft": "潜在魔術",
-      "servantClass": "クラス"
+      "servantClass": "クラス",
+      "weakness": "被特攻属性",
     }
   }
 }

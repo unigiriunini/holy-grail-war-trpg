@@ -55,6 +55,7 @@ Hooks.once('init', function () {
     holyGrailFragment: models.HolyGrailWarTRPGHolyGrailFragment,
     latentMagecraft: models.HolyGrailWarTRPGLatentMagecraft,
     servantClass: models.HolyGrailWarTRPGServantClass,
+    weakness: models.HolyGrailWarTRPGWeakness,
     item: models.HolyGrailWarTRPGItem,
     feature: models.HolyGrailWarTRPGFeature,
     spell: models.HolyGrailWarTRPGSpell
